@@ -23,13 +23,13 @@ const Header = () => {
               <a href="#" class="block py-2 pl-3 pr-4 text-[#252525]" aria-current="page">Home</a>
             </li> */}
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-[#252525]">Homes</a>
+              <a href="#" className="block py-2 pl-3 pr-4 text-[#252525] font-normal">Homes</a>
             </li>
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-[#252525]">Locations</a>
+              <a href="#" className="block py-2 pl-3 pr-4 text-[#252525] font-normal">Locations</a>
             </li>
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-[#252525]">How it works</a>
+              <a href="#" className="block py-2 pl-3 pr-4 text-[#252525] font-normal">How it works</a>
             </li>
           </ul>
         </div>
