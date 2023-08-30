@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
 
 const App = () => {
-  return <div>Welcome to the Fleep side of things.</div>;
+  return (
+    <>
+    <Header />
+    </>
+  )
 };
 
 export default App;
