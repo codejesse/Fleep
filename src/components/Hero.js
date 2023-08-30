@@ -9,11 +9,11 @@ const Hero = () => {
         <p className='text-[#848484]'>Powerful, self-serve product and growth analytics to help
           you flip homes and resell to the market.</p>
         <div className='flex flex-row gap-6 mt-6'>
-          <button className="text-white bg-[#252525] hover:bg-[#252525] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium border-none text-sm px-5 py-2 text-center mr-3 md:mr-0">Get Started</button>
+          <button className="text-white bg-[#252525] hover:bg-[#252525] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium border-none text-sm px-8 py-3 text-center mr-3 md:mr-0">Get Started</button>
           <p className='my-auto'>Learn More</p>
         </div>
       </div>
-      <img className='w-[45%]' src={heroimg} />
+      <img className='w-[45%]' src={heroimg} alt='hero-image' />
     </div>
   );
 };
