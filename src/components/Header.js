@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+    <nav class="bg-white fixed w-full z-20 top-0 left-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" class="flex items-center">
           <span class="self-center text-2xl font-semibold whitespace-nowrap">FLEEP</span>
