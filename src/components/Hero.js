@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='flex flex-col lg:flex-row overflow-hidden mt-[100px]'>
       <div className='flex flex-col m-auto w-[610px]'>
-        <h1 className='font-semibold text-[70px]'>Flip Your Dream House With Us</h1>
+        <h1 className='font-semibold text-[70px]'>Flip Your Dream House With Us.</h1>
         <p className='text-[#848484]'>Powerful, self-serve product and growth analytics to help
           you flip homes and resell to the market.</p>
         <div className='flex flex-row gap-6 mt-6'>
