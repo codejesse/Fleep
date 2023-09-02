@@ -49,6 +49,9 @@ const Search = () => {
               </div>
             </div>
           </div>
+          <div className='flex justify-center py-5'>
+            <button className='bg-white text-[#252525] text-[12px] border border-[#252525] px-6 py-3 rounded-[10px]'>Load more</button>
+          </div>
         </div>
       </div>
     </div>
