@@ -12,8 +12,20 @@ const Search = () => {
           <option value="FR">France</option>
           <option value="DE">Germany</option>
         </select>
-        <input placeholder='Property type' className='bg-white border border-[#ECECEC] rounded-2xl w-[25%] p-5' />
-        <input placeholder='Price range' className='bg-white border border-[#ECECEC] rounded-2xl w-[25%] p-5' />
+        <select id="Location" className='bg-white border border-[#ECECEC] rounded-2xl w-[25%] p-5'>
+          <option selected>Property type (any)</option>
+          <option value="US">Duplex</option>
+          <option value="CA">Bungalow</option>
+          <option value="FR">Apartments</option>
+          <option value="DE">Self-contains</option>
+        </select>
+        <select id="Location" className='bg-white border border-[#ECECEC] rounded-2xl w-[25%] p-5'>
+          <option selected>Price range</option>
+          <option value="US">Duplex</option>
+          <option value="CA">Bungalow</option>
+          <option value="FR">Apartments</option>
+          <option value="DE">Self-contains</option>
+        </select>
         <button className='bg-[#252525] w-[13%] rounded-xl text-white'>Search</button>
       </div>
 
