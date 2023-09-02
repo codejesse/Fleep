@@ -10,7 +10,7 @@ const Footer = () => {
               <a href="https://flowbite.com/" class="flex items-center text-white">
                 <span class="self-center text-2xl font-semibold whitespace-nowrap">FLEEP</span>
               </a>
-              <p className='w-[350px] text-white'>Powerful, self-serve product and growth analytics to help
+              <p className='w-[350px] text-white font-light text-[12px]'>Powerful, self-serve product and growth analytics to help
 you flip homes and resell to the market.</p>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
