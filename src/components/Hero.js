@@ -13,7 +13,7 @@ const Hero = () => {
           <p className='my-auto'>Learn More</p>
         </div>
       </div>
-      <img className='w-[45%]' src={heroimg} alt='hero-image' />
+      <img className='w-[45%]' src={heroimg} alt='hero' />
     </div>
   );
 };
