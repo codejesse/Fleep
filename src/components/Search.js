@@ -1,4 +1,5 @@
 import React from 'react';
+import home1 from "../assets/img/houses/home1.png"
 
 const Search = () => {
   return (
@@ -18,16 +19,22 @@ const Search = () => {
 
       {/* */}
       <div className=''>
-        <div className='border border-red-600 p-12'>
-          <div className='grid grid-cols-3 mx-auto border'>
-            <div className='border w-[306px] h-[388px] rounded-[15px] m-auto'>
-              card
+        <div className='p-12'>
+          <div className='grid grid-cols-3 mx-auto'>
+            <div className='border w-[316px] h-[388px] rounded-[15px] m-auto'>
+              <div className='m-5'>
+                <img className='rounded-[12px]' src={home1} alt='home' />
+              </div>
             </div>
-            <div className='border w-[306px] h-[388px] rounded-[15px] m-auto'>
-              card
+            <div className='border w-[316px] h-[388px] rounded-[15px] m-auto'>
+              <div className='m-5'>
+                <img className='rounded-[12px]' src={home1} alt='home' />
+              </div>
             </div>
-            <div className='border w-[306px] h-[388px] rounded-[15px] m-auto'>
-              card
+            <div className='border w-[316px] h-[388px] rounded-[15px] m-auto'>
+              <div className='m-5'>
+                <img className='rounded-[12px]' src={home1} alt='home' />
+              </div>
             </div>
           </div>
         </div>
