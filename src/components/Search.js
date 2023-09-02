@@ -20,20 +20,20 @@ const Search = () => {
       {/* */}
       <div className=''>
         <div className='p-12'>
-          <div className='grid grid-cols-3 mx-auto'>
-            <div className='border w-[316px] h-[388px] rounded-[15px] m-auto'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 lg:gap-1 mx-auto'>
+            <div className='border w-full md:w-[316px] lg:w-[316px] h-[388px] rounded-[15px] m-auto'>
               <div className='m-5'>
-                <img className='rounded-[12px]' src={home1} alt='home' />
+                <img className='rounded-[12px] w-full' src={home1} alt='home' />
               </div>
             </div>
-            <div className='border w-[316px] h-[388px] rounded-[15px] m-auto'>
+            <div className='border w-full md:w-[316px] h-[388px] rounded-[15px] m-auto'>
               <div className='m-5'>
-                <img className='rounded-[12px]' src={home1} alt='home' />
+                <img className='rounded-[12px] w-full' src={home1} alt='home' />
               </div>
             </div>
-            <div className='border w-[316px] h-[388px] rounded-[15px] m-auto'>
+            <div className='border w-full md:w-[316px] h-[388px] rounded-[15px] m-auto'>
               <div className='m-5'>
-                <img className='rounded-[12px]' src={home1} alt='home' />
+                <img className='rounded-[12px] w-full' src={home1} alt='home' />
               </div>
             </div>
           </div>
