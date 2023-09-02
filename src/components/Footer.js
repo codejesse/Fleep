@@ -14,18 +14,21 @@ const Footer = () => {
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                 <h2 class="mb-6 text-sm font-semibold text-white uppercase">Resources</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-white font-normal">
                   <li class="mb-4">
-                    <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                    <a href="https://flowbite.com/" class="hover:underline">Blog</a>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                    <a href="https://tailwindcss.com/" class="hover:underline">Highlights</a>
+                  </li>
+                  <li className='mt-4'>
+                    <a href="https://tailwindcss.com/" class="hover:underline">Documents</a>
                   </li>
                 </ul>
               </div>
               <div>
                 <h2 class="mb-6 text-sm font-semibold text-white uppercase">Follow us</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-white font-normal">
                   <li class="mb-4">
                     <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
                   </li>
@@ -35,8 +38,8 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <h2 class="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
+                <ul class="text-white font-normal">
                   <li class="mb-4">
                     <a href="#" class="hover:underline">Privacy Policy</a>
                   </li>
