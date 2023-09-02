@@ -19,14 +19,14 @@ const Search = () => {
       {/* */}
       <div className=''>
         <div className='border border-red-600 p-12'>
-          <div className='grid grid-cols-3 m-auto'>
-            <div className='border w-[306px] h-[388px] rounded-[15px]'>
+          <div className='grid grid-cols-3 mx-auto border'>
+            <div className='border w-[306px] h-[388px] rounded-[15px] m-auto'>
               card
             </div>
-            <div className='border w-[306px] h-[388px] rounded-[15px]'>
+            <div className='border w-[306px] h-[388px] rounded-[15px] m-auto'>
               card
             </div>
-            <div className='border w-[306px] h-[388px] rounded-[15px]'>
+            <div className='border w-[306px] h-[388px] rounded-[15px] m-auto'>
               card
             </div>
           </div>
