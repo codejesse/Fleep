@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Poppins',
+      secondary: 'san-serif'
     },
     container: {
       padding: {
