@@ -4,13 +4,15 @@ import Hero from './components/Hero';
 import Search from './components/Search';
 import Footer from './components/Footer';
 
+
+
 const App = () => {
   return (
     <>
-    <Header />
-    <Hero />
-    <Search />
-    <Footer />
+      <Header />
+      <Hero />
+      <Search />
+      <Footer />
     </>
   )
 };

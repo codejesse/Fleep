@@ -3,6 +3,7 @@ import home1 from "../assets/img/houses/home1.png";
 import bed from "../assets/bed.svg";
 import bath from "../assets/bath.svg"
 import { housesData } from '../data';
+import { Route, Link, Routes } from 'react-router-dom';
 
 const Search = () => {
   console.log(housesData)
@@ -40,7 +41,9 @@ const Search = () => {
             {housesData.map((item) => (
               <div key={item.id} className='border w-full md:w-[316px] lg:w-[316px] h-fit lg:h-[388px] rounded-[15px] m-auto mb-5'>
                 <div className='m-5 truncate'>
-                  <img className='rounded-[12px] w-full' src={home1} alt='home' />
+                  <Link to={`homes/${item.id}`}>
+                    <img className='rounded-[12px] w-full' src={home1} alt='home' />
+                  </Link>
                   <div className='flex flex-col'>
                     <h1 className='mt-5 text-[15px]'>{item.address}</h1>
                     <h1 className='text-[15px] font-bold'>$100,000</h1>
@@ -55,34 +58,6 @@ const Search = () => {
                 </div>
               </div>
             ))}
-            {/* <div className='border w-full md:w-[316px] lg:w-[316px] h-[388px] rounded-[15px] m-auto'>
-              <div className='m-5 truncate'>
-                <img className='rounded-[12px] w-full' src={home1} alt='home' />
-                <div className='flex flex-col'>
-                  <h1 className='mt-5 text-[15px]'>4 Roosevelt Avenue Portland, CA</h1>
-                  <h1 className='text-[15px] font-bold'>$100,000</h1>
-                </div>
-                <p className='text-[12px] text-[#848484]'>posted by author</p>
-                <div className='flex flex-row mt-4 gap-5'>
-                  <p className='flex flex-row gap-1'><img src={bed} alt='bed' />6</p>
-                  <p className='flex flex-row gap-1'><img src={bath} alt='bath' />2</p>
-                </div>
-              </div>
-            </div>
-            <div className='border w-full md:w-[316px] lg:w-[316px] h-[388px] rounded-[15px] m-auto'>
-              <div className='m-5 truncate'>
-                <img className='rounded-[12px] w-full' src={home1} alt='home' />
-                <div className='flex flex-col'>
-                  <h1 className='mt-5 text-[15px]'>4 Roosevelt Avenue Portland, CA</h1>
-                  <h1 className='text-[15px] font-bold'>$100,000</h1>
-                </div>
-                <p className='text-[12px] text-[#848484]'>posted by author</p>
-                <div className='flex flex-row mt-4 gap-5'>
-                  <p className='flex flex-row gap-1'><img src={bed} alt='bed' />6</p>
-                  <p className='flex flex-row gap-1'><img src={bath} alt='bath' />2</p>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div className='flex justify-center py-5'>
             <button className='bg-white text-[#252525] text-[12px] border border-[#252525] px-6 py-3 rounded-[10px]'>Load more</button>
