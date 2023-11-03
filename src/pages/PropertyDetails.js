@@ -25,6 +25,8 @@ const PropertyDetails = () => {
               <img className='w-[30px] h-[29.96px]' src={bath} alt='bath' />
               <p className='mt-1'>6</p>
             </div>
+            {/* The agent avatar goes here */}
+            <h1 className='m-auto'>Agent avatar</h1>
           </div>
         </div>
       </div>
