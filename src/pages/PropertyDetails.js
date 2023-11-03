@@ -30,7 +30,7 @@ const PropertyDetails = () => {
             {/* The agent avatar goes here */}
             <h1 className='m-auto'>Agent avatar</h1>
           </div>
-          <div className="mx-auto w-full max-w-md rounded-2xl bg-white mt-8">
+          <div className="mx-auto w-full max-w-md  bg-white mt-8">
             <Disclosure>
               {({ open }) => (
                 <>
@@ -52,7 +52,7 @@ const PropertyDetails = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                    <span>Do you offer technical support?</span>
+                    <span>Location and survery</span>
                     <ChevronUpIcon
                       className={`${open ? 'rotate-180 transform' : ''
                         } h-5 w-5 text-purple-500`}
@@ -68,7 +68,7 @@ const PropertyDetails = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                    <span>Do you offer technical support?</span>
+                    <span>Legal</span>
                     <ChevronUpIcon
                       className={`${open ? 'rotate-180 transform' : ''
                         } h-5 w-5 text-purple-500`}
