@@ -6,12 +6,12 @@ import home1 from "../assets/img/houses/home1.png"
 const PropertyDetails = () => {
   const { homeId } = useParams();
   return (
-    <div>
+    <div className='overflow-hidden'>
       {/* For now add dummy data here until i can pass the data from data.js that matches the id */}
       <Header />
-      <div className='flex flex-row lg:p-[80px] lg:m-0 m-10'>
+      <div className='flex lg:flex-row flex-col lg:p-[80px] lg:m-0 m-10'>
         <img className='lg:w-[669px] w-full lg:h-[559px] h-fit' src={home1} alt={homeId} />
-        <div className='p-10'>
+        <div className='lg:p-10 p-4'>
           <h1 className='text-[25px] font-semibold'>4 Roosevelt Avenue Portland, CA</h1>
         </div>
       </div>
