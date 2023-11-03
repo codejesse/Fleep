@@ -6,6 +6,7 @@ import bath from "../assets/bath.svg";
 import bed from "../assets/bed.svg"
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
+import Footer from '../components/Footer';
 
 const PropertyDetails = () => {
   const { homeId } = useParams();
@@ -83,6 +84,7 @@ const PropertyDetails = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
