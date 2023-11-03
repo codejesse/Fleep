@@ -4,6 +4,8 @@ import bed from "../assets/bed.svg";
 import bath from "../assets/bath.svg"
 import { housesData } from '../data';
 import { Route, Link, Routes } from 'react-router-dom';
+import PropertyDetails from '../pages/PropertyDetails';
+import App from '../App';
 
 const Search = () => {
   console.log(housesData)
