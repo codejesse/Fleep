@@ -9,8 +9,11 @@ const PropertyDetails = () => {
     <div>
       {/* For now add dummy data here until i can pass the data from data.js that matches the id */}
       <Header />
-      <div className='lg:p-[80px] lg:m-0 m-10'>
+      <div className='flex flex-row lg:p-[80px] lg:m-0 m-10'>
         <img className='lg:w-[669px] w-full lg:h-[559px] h-fit' src={home1} alt={homeId} />
+        <div className='p-10'>
+          <h1 className='text-[25px] font-semibold'>4 Roosevelt Avenue Portland, CA</h1>
+        </div>
       </div>
     </div>
   );
