@@ -40,6 +40,7 @@ const Search = () => {
       <div className=''>
         <div className='p-12'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 lg:gap-1 mx-auto'>
+            {/* This data needs to be put in a json form and hosted or i just need to find a way property details can get the necessary data */}
             {housesData.map((item) => (
               <div key={item.id} className='border w-full md:w-[316px] lg:w-[316px] h-fit lg:h-[388px] rounded-[15px] m-auto mb-5'>
                 <div className='m-5 truncate'>
