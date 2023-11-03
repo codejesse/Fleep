@@ -53,7 +53,7 @@ const PropertyDetails = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between rounded-lg bg-[#000000] px-4 py-2 text-left text-sm font-medium text-white">
-                    <span>Location and survery</span>
+                    <span>Location and survey</span>
                     <ChevronUpIcon
                       className={`${open ? 'rotate-180 transform' : ''
                         } h-5 w-5 text-white`}
